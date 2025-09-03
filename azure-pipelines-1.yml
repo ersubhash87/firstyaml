@@ -1,0 +1,10 @@
+trigger:
+- none
+
+pool:
+  name: firstagent
+
+steps:
+- task: TerraformInstaller@1
+  inputs:
+    terraformVersion: 'latest'
